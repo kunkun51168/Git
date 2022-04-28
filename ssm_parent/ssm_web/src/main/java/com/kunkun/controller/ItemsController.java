@@ -34,6 +34,7 @@ public class ItemsController {
     @RequestMapping("/save")
     public String save(Items items){
         // 调用service保存
+        // 调用service保存
         itemsService.save(items);
         // 返回controller的list方法查询
         return "redirect:/items/list";

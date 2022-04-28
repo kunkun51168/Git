@@ -22,6 +22,8 @@ public class ItemsController {
     @RequestMapping("/list")
     public String findAll(Model model){
         // 调用service
+        // 调用service
+        // 调用service
         List<Items> list = itemsService.findAll();
         // 传给页面
         model.addAttribute("items",list);
